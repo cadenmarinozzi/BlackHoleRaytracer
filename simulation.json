@@ -1,0 +1,34 @@
+{
+	"pixelSize": 2,
+	"outputPath": "./images",
+	"blackHoleSize": 1600,
+	"raysPerPixel": 200,
+
+	"dt": 13,
+	
+	"size": [1920, 1080],
+
+	"camera": [0, -1.2, -12],
+	"direction": [120, 0],
+
+	"path": [
+		{
+			"start": {
+				"position": [0, -1, -11],
+				"direction": [120, -0]
+			},
+			"end": {
+				"position": [0, -1, 4],
+				"direction": [30,-90]
+			},
+			"speed": 0.08
+		},
+		{
+			"end": {
+				"position": [0, -1, -11],
+				"direction": [-40, -90]
+			},
+			"speed": 0.05
+		}
+	]
+}

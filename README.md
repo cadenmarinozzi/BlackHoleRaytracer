@@ -35,6 +35,8 @@ You can then run the processor with the following command: `python process.py <a
 
 # Installing
 
+To install the dependencies for the raytracer, run the following command: `npm install`
+
 To install the dependencies for the processor, run the following command:
 `pip3 install -r requirements.txt`
 
